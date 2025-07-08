@@ -2647,7 +2647,7 @@ input, select, textarea {
 
 				#navPanel .link {
 					display: block;
-					color: #fff;
+					color: #fff !important;
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
