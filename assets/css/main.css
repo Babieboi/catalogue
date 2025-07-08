@@ -2647,13 +2647,14 @@ input, select, textarea {
 
 				#navPanel .link {
 					display: block;
-					color: #470349;
+					color: #fff;
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
 					border-top: solid 1px rgba(248, 243, 243, 0.945);
 					padding: 0 1em 0 1em;
 					font-style: bold;
+					font-weight: 50;
 				}
 
 					#navPanel .link:first-child {
