@@ -1739,6 +1739,69 @@ input, select, textarea {
 		}
  
      
+.header-menu {
+  background-color: #56135c;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+.header-menu-items {
+  display: none;
+  z-index: 1;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  font-weight: 90;
+  margin-top: 20px;
+}
+
+.a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.search {
+  display: none;
+}
+
+.search-icon {
+  display: none;
+}
+
+
+.header-menu-btn {
+  text-align: left;
+  background-color: #460546;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+#toggle-menu:checked ~ .header-menu-items {
+  display: block;
+}
+
+#toggle-menu ~ label .hide {
+  display: none;
+}
+
+#toggle-menu:checked ~ label .show {
+  display: none;
+}
+
+#toggle-menu:checked ~ label .hide {
+  display: inline;
+}
 
 /* Actions */
 
